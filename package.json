@@ -1,0 +1,21 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && yarn && yarn run build"
+  },
+  "repository": "git+https://github.com/dingzhanjun/allaboutcovid19.git",
+  "author": "dingzhanjun@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dingzhanjun/allaboutcovid19/issues"
+  },
+  "homepage": "https://github.com/dingzhanjun/allaboutcovid19",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
